@@ -1,3 +1,13 @@
+[- 2.0.13 -]
+
+[added] Proxy binary to improve perfomace and standalone playback for external player
+[added] External player support (vlc, tivimate, ott navigator)
+[added] Web login
+[added] Log uploader
+[added] More Star channels
+[added] External source for sony and zee channels
+
+
 [- 2.0.0 -]
 
 [fixed] All major issues related to playback almost solved

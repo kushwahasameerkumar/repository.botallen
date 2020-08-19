@@ -47,12 +47,12 @@ def create_zip(zip_name, root_dir, addon_name):
                     addon_name, os.path.relpath(path, base_path)))
             for name in filenames:
                 path = os.path.normpath(os.path.join(dirpath, name))
-                if os.path.isfile(path) and not path.endswith(".zip") and not path.endswith("deploy_addon.py") and not path.endswith("channels.json") and not path.endswith(".m3u"):
+                if os.path.isfile(path) and not path.endswith(".zip") and path != "__pycache__" and not path.endswith("deploy_addon.py") and not path.endswith("channels.json") and not path.endswith(".m3u"):
                     print("+ <%s>" % path)
                     zf.write(path, os.path.join(
                         addon_name, os.path.relpath(path, base_path)))
 
-    print('ZIP created successfully.')
+    print('ZIP created successfully.', zip_name)
 
 
 # Argument parsing
