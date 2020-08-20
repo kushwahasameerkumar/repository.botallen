@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.botallen" name="BotAllen Beta Repository" version="1.0.0-beta" provider-name="botallen">
+<addon id="repository.botallen" name="BotAllen Beta Repository" version="1.0.0~beta" provider-name="botallen">
     <extension point="xbmc.addon.repository" name="BotAllen Beta Repository">
         <info compressed="false">https://github.com/botallen/repository.botallen/raw/beta/addons.xml</info>
         <checksum>https://github.com/botallen/repository.botallen/raw/beta/addons.xml.md5</checksum>
