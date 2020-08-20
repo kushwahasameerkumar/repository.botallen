@@ -52,7 +52,7 @@
 </addon>
 
 <addon
-  id="pvr.jiotv"
+  id="pvr.jiotv+linux-armv7"
   version="0.0.2"
   name="JioTV"
   provider-name="botallen">
@@ -83,7 +83,7 @@
 </addon>
 
 <addon
-  id="pvr.jiotv"
+  id="pvr.jiotv+linux-x86_64"
   version="0.0.2"
   name="JioTV"
   provider-name="botallen">
@@ -191,7 +191,7 @@
 </addon>
 
 <addon
-  id="pvr.jiotv"
+  id="pvr.jiotv+android-armv7"
   version="0.0.2"
   name="JioTV"
   provider-name="botallen">
@@ -222,7 +222,7 @@
 </addon>
 
 <addon
-  id="pvr.jiotv"
+  id="pvr.jiotv+android-aarch64"
   version="0.0.2"
   name="JioTV"
   provider-name="botallen">
