@@ -26,7 +26,7 @@
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
     </assets>
-    <platform>linux-armv7</platform>
+    <platform>linux</platform>
     <path>pvr.jiotv+linux-armv7/pvr.jiotv-0.0.1.zip</path>
   </extension>
 </addon>
