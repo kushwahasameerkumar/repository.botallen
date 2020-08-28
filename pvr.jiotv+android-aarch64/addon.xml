@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="pvr.jiotv+android-aarch64"
-  version="0.0.2"
+  id="pvr.jiotv"
+  version="0.0.1"
   name="JioTV"
   provider-name="botallen">
   <requires>
@@ -27,5 +27,6 @@
       <fanart>resources/fanart.jpg</fanart>
     </assets>
     <platform>android-aarch64</platform>
+    <path>pvr.jiotv+android-aarch64/pvr.jiotv-0.0.1.zip</path>
   </extension>
 </addon>

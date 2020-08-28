@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.jiotv" name="JioTV" version="2.0.14-beta" provider-name="botallen">
+<addon id="plugin.video.jiotv" name="JioTV" version="2.0.14~beta" provider-name="botallen">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.codequick"/>
         <import addon="script.module.inputstreamhelper"/>
-        <import addon="repository.botallen" version="1.0.0" />
-        <import addon="pvr.jiotv" version="0.0.2" />
+        <import addon="pvr.jiotv" version="0.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -21,12 +20,10 @@
         <email>kodi@botallen.com</email>
         <source>https://github.com/botallen/repository.botallen/tree/master/plugin.video.jiotv</source>
         <news>
-[- 2.0.13 -]
+[- 2.0.14 -]
 
-[added] Proxy binary to improve perfomace and standalone playback for external player
 [added] External player support (vlc, tivimate, ott navigator)
 [added] Web login
-[added] Log uploader
 [added] More Star channels
 [added] External source for sony and zee channels
 	    </news>

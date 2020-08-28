@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <!-- <category label="General">
+        <setting label="Account" type="lsep"/>
+        <setting id="login" type="action" label="Login" action="RunPlugin(pvr://channels/tv/All channels/pvr.jiotv_109068.pvr)" option="close"/>
+        <setting id="logout" type="action" label="Logout" action="RunPlugin(pvr://channels/tv/All channels/pvr.jiotv_109067.pvr)" option="close"/>
+    </category> -->
+    <category label="Languages">
+        <setting id="Hindi" type="bool" label="Hindi" default="true"/>
+        <setting id="English" type="bool" label="English" default="true"/>
+        <setting id="Marathi" type="bool" label="Marathi" default="true"/>
+        <setting id="Telugu" type="bool" label="Telugu" default="true"/>
+        <setting id="Kannada" type="bool" label="Kannada" default="true"/>
+        <setting id="Tamil" type="bool" label="Tamil" default="true"/>
+        <setting id="Punjabi" type="bool" label="Punjabi" default="true"/>
+        <setting id="Gujarati" type="bool" label="Gujarati" default="true"/>
+        <setting id="Bengali" type="bool" label="Bengali" default="true"/>
+        <setting id="Bhojpuri" type="bool" label="Bhojpuri" default="true"/>
+        <setting id="Malayalam" type="bool" label="Malayalam" default="true"/>
+        <setting id="Odia" type="bool" label="Odia" default="true"/>
+        <setting id="Assamese" type="bool" label="Assamese" default="true"/>
+        <setting id="Urdu" type="bool" label="Urdu" default="true"/>
+        <setting id="Nepali" type="bool" label="Nepali" default="true"/>
+    </category>
+    <category label="Advance">
+        <setting label="Notification" type="lsep"/>
+        <setting id="popupdisabled" type="bool" label="Disable startup popup" default="false"/>
+        <!-- <setting label="Log" type="lsep"/>
+        <setting label="Upload log" type="action" id="logupload" action="RunPlugin(pvr://channels/tv/All channels/pvr.jiotv_109069.pvr)" option="close"/> -->
+    </category>
+</settings>
+

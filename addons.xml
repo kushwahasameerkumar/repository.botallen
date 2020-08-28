@@ -31,7 +31,12 @@
     </extension>
 </addon>
 
-<addon id="repository.botallen" name="BotAllen Beta Repository" version="1.0.0~beta" provider-name="botallen">
+<addon id="repository.botallen" name="BotAllen Repository" version="1.0.0" provider-name="botallen">
+    <extension point="xbmc.addon.repository" name="BotAllen Repository">
+        <info compressed="false">https://github.com/botallen/repository.botallen/raw/master/addons.xml</info>
+        <checksum>https://github.com/botallen/repository.botallen/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/botallen/repository.botallen/raw/master/</datadir>
+    </extension>
     <extension point="xbmc.addon.repository" name="BotAllen Beta Repository">
         <info compressed="false">https://github.com/botallen/repository.botallen/raw/beta/addons.xml</info>
         <checksum>https://github.com/botallen/repository.botallen/raw/beta/addons.xml.md5</checksum>
@@ -52,8 +57,8 @@
 </addon>
 
 <addon
-  id="pvr.jiotv+linux-armv7"
-  version="0.0.2"
+  id="pvr.jiotv"
+  version="0.0.1"
   name="JioTV"
   provider-name="botallen">
   <requires>
@@ -62,7 +67,7 @@
   </requires>
   <extension
     point="xbmc.pvrclient"
-    library_linux="pvr.jiotv.so.0.0.1"/>
+    library_windows="pvr.jiotv.dll"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Stream Live Indian Channels From JioTV on Kodi</summary>
     <description lang="en_GB">Enjoy Live TV expreince in Kodi.</description>
@@ -78,13 +83,14 @@
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
     </assets>
-    <platform>linux</platform>
+    <platform>windows-i686</platform>
+    <path>pvr.jiotv+windows-i686/pvr.jiotv-0.0.1.zip</path>
   </extension>
 </addon>
 
 <addon
-  id="pvr.jiotv+linux-x86_64"
-  version="0.0.2"
+  id="pvr.jiotv"
+  version="0.0.1"
   name="JioTV"
   provider-name="botallen">
   <requires>
@@ -109,7 +115,40 @@
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
     </assets>
-    <platform>linux</platform>
+    <platform>linux-armv7</platform>
+    <path>pvr.jiotv+linux-armv7/pvr.jiotv-0.0.1.zip</path>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.jiotv"
+  version="0.0.1"
+  name="JioTV"
+  provider-name="botallen">
+  <requires>
+    <import addon="kodi.binary.global.main" version="1.0.14"/>
+    <import addon="kodi.binary.instance.pvr" version="5.10.3"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_linux="pvr.jiotv.so.0.0.1"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Stream Live Indian Channels From JioTV on Kodi</summary>
+    <description lang="en_GB">Enjoy Live TV expreince in Kodi.</description>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>kodi.botallen.com</website>
+    <email>kodi@botallen.com</email>
+    <source>https://github.com/botallen/repository.botallen/tree/master/pvr.jiotv</source>
+    <news></news>
+    <disclaimer>This add-on is not officially commissioned/supported by Jio. The trademark "Jio" is registered by "Reliance Corporate IT Park Limited (RCITPL)"</disclaimer>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <platform>linux-x86_64</platform>
+    <path>pvr.jiotv+linux-x86_64/pvr.jiotv-0.0.1.zip</path>
   </extension>
 </addon>
 
@@ -191,8 +230,40 @@
 </addon>
 
 <addon
-  id="pvr.jiotv+android-armv7"
-  version="0.0.2"
+  id="pvr.jiotv"
+  version="0.0.1"
+  name="JioTV"
+  provider-name="botallen">
+  <requires>
+    <import addon="kodi.binary.global.main" version="1.0.14"/>
+    <import addon="kodi.binary.instance.pvr" version="5.10.3"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_windows="pvr.jiotv.dll"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Stream Live Indian Channels From JioTV on Kodi</summary>
+    <description lang="en_GB">Enjoy Live TV expreince in Kodi.</description>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>kodi.botallen.com</website>
+    <email>kodi@botallen.com</email>
+    <source>https://github.com/botallen/repository.botallen/tree/master/pvr.jiotv</source>
+    <news></news>
+    <disclaimer>This add-on is not officially commissioned/supported by Jio. The trademark "Jio" is registered by "Reliance Corporate IT Park Limited (RCITPL)"</disclaimer>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <platform>windows-x86_64</platform>
+    <path>pvr.jiotv+windows-x86_64/pvr.jiotv-0.0.1.zip</path>
+  </extension>
+</addon>
+
+<addon
+  id="pvr.jiotv"
+  version="0.0.1"
   name="JioTV"
   provider-name="botallen">
   <requires>
@@ -218,12 +289,13 @@
       <fanart>resources/fanart.jpg</fanart>
     </assets>
     <platform>android-armv7</platform>
+    <path>pvr.jiotv+android-armv7/pvr.jiotv-0.0.1.zip</path>
   </extension>
 </addon>
 
 <addon
-  id="pvr.jiotv+android-aarch64"
-  version="0.0.2"
+  id="pvr.jiotv"
+  version="0.0.1"
   name="JioTV"
   provider-name="botallen">
   <requires>
@@ -249,16 +321,16 @@
       <fanart>resources/fanart.jpg</fanart>
     </assets>
     <platform>android-aarch64</platform>
+    <path>pvr.jiotv+android-aarch64/pvr.jiotv-0.0.1.zip</path>
   </extension>
 </addon>
 
-<addon id="plugin.video.jiotv" name="JioTV" version="2.0.14-beta" provider-name="botallen">
+<addon id="plugin.video.jiotv" name="JioTV" version="2.0.14~beta" provider-name="botallen">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.codequick"/>
         <import addon="script.module.inputstreamhelper"/>
-        <import addon="repository.botallen" version="1.0.0" />
-        <import addon="pvr.jiotv" version="0.0.2" />
+        <import addon="pvr.jiotv" version="0.0.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -274,12 +346,10 @@
         <email>kodi@botallen.com</email>
         <source>https://github.com/botallen/repository.botallen/tree/master/plugin.video.jiotv</source>
         <news>
-[- 2.0.13 -]
+[- 2.0.14 -]
 
-[added] Proxy binary to improve perfomace and standalone playback for external player
 [added] External player support (vlc, tivimate, ott navigator)
 [added] Web login
-[added] Log uploader
 [added] More Star channels
 [added] External source for sony and zee channels
 	    </news>

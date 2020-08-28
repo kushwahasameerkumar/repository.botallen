@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="pvr.jiotv+linux-x86_64"
-  version="0.0.2"
+  id="pvr.jiotv"
+  version="0.0.1"
   name="JioTV"
   provider-name="botallen">
   <requires>
@@ -26,6 +26,7 @@
       <icon>resources/icon.png</icon>
       <fanart>resources/fanart.jpg</fanart>
     </assets>
-    <platform>linux</platform>
+    <platform>linux-x86_64</platform>
+    <path>pvr.jiotv+linux-x86_64/pvr.jiotv-0.0.1.zip</path>
   </extension>
 </addon>

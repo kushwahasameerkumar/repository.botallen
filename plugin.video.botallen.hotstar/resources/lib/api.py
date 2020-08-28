@@ -140,7 +140,7 @@ class HotstarAPI:
                             "RunPlugin(plugin://plugin.video.botallen.hotstar/resources/lib/main/login/)")
                     else:
                         Script.notify(
-                            "Subscription Error", "You don't have valid subscription to watch this content")
+                            "Subscription Error", "You don't have valid subscription to watch this content", display_time=2000)
             elif e.code == 401:
                 new_token = self._refreshToken()
                 if new_token:

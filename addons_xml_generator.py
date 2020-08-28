@@ -1,6 +1,7 @@
 """ addons.xml generator """
 
 import os
+import re
 from hashlib import md5
 
 
