@@ -164,10 +164,10 @@ class Builder:
                 "IsPlayable": False
             },
             "stream": {
-                "video_codec": "h264",
+                # "video_codec": "h264",
                 "width": "1920",
                 "height": "1080",
-                "audio_codec": "aac"
+                # "audio_codec": "aac"
             },
             "callback": callback,
             "params": params
